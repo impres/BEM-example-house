@@ -1,0 +1,19 @@
+.house {
+	padding: 10px;
+	width: 100%;
+	border: 5px solid #333;
+	display: grid;
+	grid-gap: 10px;
+
+	/* Elements */
+	&__room {
+		padding: 50px;
+		width: 50%;
+		border: 1px solid #222;
+	}
+
+	/* Modifiers */
+	&--stone-red {
+		border-color: red;
+	}
+}

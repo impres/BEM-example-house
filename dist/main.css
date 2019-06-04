@@ -1,0 +1,34 @@
+/* ITCSS */
+.house {
+  padding: 10px;
+  width: 100%;
+  border: 5px solid #333;
+  display: grid;
+  grid-gap: 10px;
+  /* Elements */
+  /* Modifiers */ }
+  .house__room {
+    padding: 50px;
+    width: 50%;
+    border: 1px solid #222; }
+  .house--stone-red {
+    border-color: red; }
+
+.garden {
+  margin-top: 50px;
+  background: green;
+  padding: 50px; }
+
+.chair {
+  width: 50px; }
+  .chair__seat {
+    height: 10px;
+    background: brown; }
+  .chair__legs {
+    display: flex;
+    justify-content: space-between; }
+  .chair__leg {
+    width: 10px;
+    height: 50px;
+    background: brown; }
+
