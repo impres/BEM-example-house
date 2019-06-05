@@ -4,12 +4,14 @@
 	border: 5px solid #333;
 	display: grid;
 	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	background: #ccc;
 
 	/* Elements */
 	&__room {
 		padding: 50px;
-		width: 50%;
 		border: 1px solid #222;
+		background: #fff;
 	}
 
 	/* Modifiers */

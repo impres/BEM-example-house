@@ -1,30 +1,44 @@
 <template>
 	<div id="app">
 
-		<House>
+		<House red>
 			<HouseRoom>
-				<Chair></Chair>
-				<Chair></Chair>
+				<div style="display: flex; align-items: flex-end;">
+					<Chair></Chair>
+					<Table>
+						<Flower></Flower>
+					</Table>
+					<Chair right></Chair>
+				</div>
 			</HouseRoom>
 			<HouseRoom></HouseRoom>
 			<HouseRoom></HouseRoom>
 			<HouseRoom></HouseRoom>
 		</House>
-		<div class="garden">garden</div>
+		<Garden>
+			<div style="display: flex; align-items: flex-end;">
+			</div>
+		</Garden>
 	</div>
 </template>
 
 <script>
 	import House from './components/House'
+	import Garden from './components/Garden'
 	import HouseRoom from './components/HouseRoom'
-	import Chair from './components/Chair'
+	import Chair from './components/attributes/Chair'
+	import Table from './components/attributes/Table'
+	import Flower from './components/attributes/Flower'
 
 	export default {
 		name: 'app',
 		components: {
 			House,
+			Garden,
 			HouseRoom,
-			Chair
+			Chair,
+			Table,
+			Flower
 		}
 	}
 </script>
