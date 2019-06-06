@@ -39,7 +39,7 @@
 			position: absolute;
 			bottom: 0;
 			left: 50%;
-			transform: translate(-50%,-100%);
+			transform: translateX(-50%);
 		}
 	}
 

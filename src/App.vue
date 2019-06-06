@@ -6,6 +6,7 @@
 				<div style="display: flex; align-items: flex-end;">
 					<Chair></Chair>
 					<Table>
+						<!--<Chair></Chair>-->
 						<Flower></Flower>
 					</Table>
 					<Chair right></Chair>
@@ -17,6 +18,11 @@
 		</House>
 		<Garden>
 			<div style="display: flex; align-items: flex-end;">
+				<Chair></Chair>
+				<Table>
+					<Flower></Flower>
+				</Table>
+				<Chair right></Chair>
 			</div>
 		</Garden>
 	</div>

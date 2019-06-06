@@ -13,12 +13,14 @@
 <style lang="scss">
 	.flower {
 		position: relative;
+		height: 20px;
 
 		&__center {
 			border-radius: 100%;
 			background: orange;
 			width: 10px;
 			height: 10px;
+			position: relative;
 		}
 
 		&__leaf {

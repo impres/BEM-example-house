@@ -1,4 +1,6 @@
 .house {
+	$s: &;
+
 	padding: 10px;
 	width: 100%;
 	border: 5px solid #333;
@@ -17,5 +19,11 @@
 	/* Modifiers */
 	&--stone-red {
 		border-color: red;
+
+		#{$s}{
+			&__room{
+				border-color: red;
+			}
+		}
 	}
 }
